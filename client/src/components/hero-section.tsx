@@ -5,7 +5,7 @@ export function HeroSection() {
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 w-full max-w-7xl">
         {/* Hero Bento Box */}
-        <div className="md:col-span-12 bento-box rounded-3xl p-8 md:p-12">
+        <div className="md:col-span-12 hero-bento rounded-3xl p-8 md:p-12">
           <div className="space-y-6">
             <h2 className="text-5xl md:text-7xl font-bold font-serif leading-tight text-white">
               <span className="text-golden">AMBIENT MEDIA</span>
