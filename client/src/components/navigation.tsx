@@ -8,7 +8,7 @@ export function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 p-6">
-      <div className="flex justify-end items-center w-full">
+      <div className="flex justify-center items-center w-full">
         <div className="flex space-x-2 md:space-x-4">
           <a 
             href="#about" 
