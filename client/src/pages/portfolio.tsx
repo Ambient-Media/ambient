@@ -16,7 +16,6 @@ export default function Portfolio() {
       <main className="relative z-10 min-h-screen">
         <HeroSection />
         <AboutSection />
-        <PortfolioSection />
         <ServicesSection />
         <ContactSection />
         <Footer />
