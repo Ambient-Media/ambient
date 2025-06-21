@@ -174,8 +174,6 @@ export function ContactSection() {
                 </Select>
               </div>
               
-
-              
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2 text-white">Project Details *</label>
                 <Textarea
