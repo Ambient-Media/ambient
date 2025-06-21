@@ -8,7 +8,7 @@ frontend:
       commands:
         - npx vite build
   artifacts:
-    baseDirectory: dist
+    baseDirectory: dist/public
     files:
       - '**/*'
   cache:
