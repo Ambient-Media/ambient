@@ -11,24 +11,10 @@ export function Navigation() {
       <div className="flex justify-center items-center w-full">
         <div className="flex space-x-2 md:space-x-4">
           <a 
-            href="#about" 
-            onClick={(e) => handleNavClick(e, 'about')}
+            href="/"
             className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
           >
-            About
-          </a>
-          <a 
-            href="#portfolio" 
-            onClick={(e) => handleNavClick(e, 'portfolio')}
-            className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
-          >
-            Work
-          </a>
-          <a 
-            href="/services"
-            className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
-          >
-            Services
+            New
           </a>
           <a 
             href="#contact" 
@@ -36,6 +22,20 @@ export function Navigation() {
             className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
           >
             Contact
+          </a>
+          <a 
+            href="#about" 
+            onClick={(e) => handleNavClick(e, 'about')}
+            className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
+          >
+            About Us
+          </a>
+          <a 
+            href="#portfolio" 
+            onClick={(e) => handleNavClick(e, 'portfolio')}
+            className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
+          >
+            Work
           </a>
         </div>
       </div>
