@@ -6,7 +6,7 @@ export function HeroSection() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 w-full max-w-7xl">
         {/* Hero Bento Box */}
         <div className="md:col-span-12 hero-bento rounded-3xl p-8 md:p-12 hero-fade-in">
-          <div className="space-y-6">
+          <div className="space-y-1">
             <h2 className="text-2xl md:text-4xl font-bold leading-tight text-white hero-title" style={{ fontFamily: 'Inknut Antiqua, serif' }}>
               <span className="text-golden">AMBIENT MEDIA</span>
             </h2>
