@@ -7,7 +7,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="py-12 px-6">
+    <footer className="py-8 md:py-12 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="bento-box rounded-3xl p-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
