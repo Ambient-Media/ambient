@@ -10,7 +10,7 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 p-6">
       <div className="flex justify-between items-center">
         <div className="bento-box rounded-2xl px-6 py-3">
-          <h1 className="text-xl font-bold font-serif">Alex Chen</h1>
+          <h1 className="text-xl font-bold font-serif">Ambient Media</h1>
         </div>
         <div className="hidden md:flex space-x-4">
           <a 
@@ -28,8 +28,7 @@ export function Navigation() {
             Work
           </a>
           <a 
-            href="#services" 
-            onClick={(e) => handleNavClick(e, 'services')}
+            href="/services"
             className="bento-box rounded-xl px-4 py-2 hover:text-golden transition-colors cursor-pointer"
           >
             Services

@@ -78,9 +78,9 @@ export function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           {/* Contact Info */}
           <div className="lg:col-span-5 bento-box rounded-3xl p-8">
-            <h2 className="text-4xl font-bold font-serif mb-6 text-white">Let's Create Something Amazing</h2>
+            <h2 className="text-4xl font-bold font-serif mb-6 text-white">Get In Touch</h2>
             <p className="text-xl text-gray-200 mb-8">
-              Ready to bring your vision to life? Let's discuss your project and explore how we can work together.
+              Ready to discuss your project? Let's explore how we can work together.
             </p>
             
             <div className="space-y-6">
@@ -90,7 +90,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="font-semibold text-white">Email</div>
-                  <div className="text-gray-300">hello@alexchen.design</div>
+                  <div className="text-gray-300">hello@ambientmedia.design</div>
                 </div>
               </div>
               
@@ -174,20 +174,7 @@ export function ContactSection() {
                 </Select>
               </div>
               
-              <div>
-                <label htmlFor="budget" className="block text-sm font-medium mb-2 text-white">Project Budget</label>
-                <Select value={formData.budget} onValueChange={(value) => handleInputChange('budget', value)}>
-                  <SelectTrigger className="bg-white/10 border-white/20 text-white">
-                    <SelectValue placeholder="Select budget range" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="under-5k">Under $5,000</SelectItem>
-                    <SelectItem value="5k-10k">$5,000 - $10,000</SelectItem>
-                    <SelectItem value="10k-25k">$10,000 - $25,000</SelectItem>
-                    <SelectItem value="25k-plus">$25,000+</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
+
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2 text-white">Project Details *</label>

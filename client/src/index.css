@@ -74,7 +74,7 @@
 }
 
 .bento-box {
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;

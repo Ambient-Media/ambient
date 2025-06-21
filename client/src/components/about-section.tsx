@@ -3,16 +3,16 @@ export function AboutSection() {
     <section id="about" className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-          {/* Profile Image Bento Box */}
+          {/* Profile Info Box */}
           <div className="md:col-span-4 bento-box rounded-3xl p-6">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
-              alt="Alex Chen - Creative Designer" 
-              className="w-full h-64 object-cover rounded-2xl" 
-            />
-            <div className="mt-4">
-              <h3 className="text-xl font-bold text-white">Alex Chen</h3>
-              <p className="text-gray-300">Creative Director & Designer</p>
+            <div className="text-center">
+              <h3 className="text-2xl font-bold text-white mb-2">Ambient Media</h3>
+              <p className="text-gray-300 mb-6">Creative Director & Designer</p>
+              <div className="space-y-3">
+                <div className="text-golden font-semibold">5+ Years Experience</div>
+                <div className="text-gray-300">Based in San Francisco</div>
+                <div className="text-gray-300">Specializing in Visual Storytelling</div>
+              </div>
             </div>
           </div>
           

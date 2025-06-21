@@ -12,7 +12,7 @@ export function Footer() {
         <div className="bento-box rounded-3xl p-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div>
-              <h3 className="text-2xl font-bold font-serif text-white">Alex Chen</h3>
+              <h3 className="text-2xl font-bold font-serif text-white">Ambient Media</h3>
               <p className="text-gray-300">Creative Designer & Visual Storyteller</p>
             </div>
             
@@ -30,7 +30,7 @@ export function Footer() {
           </div>
           
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Alex Chen Design. All rights reserved.</p>
+            <p>&copy; 2024 Ambient Media. All rights reserved.</p>
           </div>
         </div>
       </div>
