@@ -2,7 +2,7 @@ import { smoothScrollTo } from "@/lib/utils";
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-20">
+    <section className="min-h-screen flex items-center justify-center px-6 pt-20 mt-[-69px] mb-[-69px]">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 w-full max-w-7xl">
         {/* Hero Bento Box */}
         <div className="md:col-span-12 hero-bento rounded-3xl p-8 md:p-12 hero-fade-in">
