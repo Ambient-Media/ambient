@@ -187,20 +187,8 @@
     var(--golden) 315deg,
     transparent 360deg
   );
-  animation: rotateGlow 4s linear infinite;
+  animation: rotateGlow 6s linear infinite;
   opacity: 0.8;
-}
-
-.logo-glow-ring::before {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  background: rgba(30, 30, 30, 0.9);
-  border-radius: 50%;
-  backdrop-filter: blur(10px);
 }
 
 .logo-image {
