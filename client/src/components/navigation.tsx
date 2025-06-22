@@ -31,8 +31,7 @@ export function Navigation() {
             About Us
           </a>
           <a 
-            href="#portfolio" 
-            onClick={(e) => handleNavClick(e, 'portfolio')}
+            href="/work.html"
             className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
           >
             Work

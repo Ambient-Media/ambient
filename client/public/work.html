@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work - Ambient Media</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #D4AF37;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .portfolio-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .portfolio-item h3 {
+            color: #D4AF37;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .portfolio-item p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+        
+        .back-link {
+            display: inline-block;
+            background: #D4AF37;
+            color: #1a1a2e;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        
+        .back-link:hover {
+            background: #B8941F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Our Work</h1>
+            <p class="subtitle">Showcasing our creative projects and visual experiences</p>
+        </div>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Brand Identity Design</h3>
+                <p>Complete visual identity systems that capture the essence of your brand and communicate your values effectively across all touchpoints.</p>
+            </div>
+            
+            <div class="portfolio-item">
+                <h3>Web Design & Development</h3>
+                <p>Modern, responsive websites that combine stunning visuals with exceptional user experience and seamless functionality.</p>
+            </div>
+            
+            <div class="portfolio-item">
+                <h3>Digital Marketing Campaigns</h3>
+                <p>Strategic visual campaigns that engage your audience and drive results across digital platforms and social media.</p>
+            </div>
+            
+            <div class="portfolio-item">
+                <h3>Print & Packaging Design</h3>
+                <p>Tangible designs that make your brand stand out on shelves and create memorable physical experiences for your customers.</p>
+            </div>
+            
+            <div class="portfolio-item">
+                <h3>UI/UX Design</h3>
+                <p>Intuitive user interfaces and experiences that prioritize usability while maintaining aesthetic excellence and brand consistency.</p>
+            </div>
+            
+            <div class="portfolio-item">
+                <h3>Photography & Visual Content</h3>
+                <p>Professional photography and visual content creation that tells your story and enhances your brand's visual narrative.</p>
+            </div>
+        </div>
+        
+        <a href="/" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>
