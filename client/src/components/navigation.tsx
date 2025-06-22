@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import { ContactModal } from "./contact-modal";
+import logoImage from "../assets/logo.png";
 
 export function Navigation() {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -12,9 +13,14 @@ export function Navigation() {
           <div className="flex space-x-2 md:space-x-4">
             <a 
               href="/"
-              className="bento-box rounded-xl px-2 md:px-4 py-2 hover:text-golden transition-colors cursor-pointer text-sm md:text-base"
+              className="logo-container relative flex items-center justify-center p-1 cursor-pointer"
             >
-              Home
+              <div className="logo-glow-ring"></div>
+              <img 
+                src={logoImage} 
+                alt="Ambient Media" 
+                className="logo-image relative z-10 h-8 w-8 rounded-full object-cover"
+              />
             </a>
             <a 
               href="/work"

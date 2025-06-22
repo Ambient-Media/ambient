@@ -152,6 +152,70 @@
   background-color: var(--slate-custom);
 }
 
+/* Logo rotating glow ring animation */
+@keyframes rotateGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-container {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.logo-glow-ring {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    var(--golden) 45deg,
+    transparent 90deg,
+    var(--golden) 135deg,
+    transparent 180deg,
+    var(--golden) 225deg,
+    transparent 270deg,
+    var(--golden) 315deg,
+    transparent 360deg
+  );
+  animation: rotateGlow 4s linear infinite;
+  opacity: 0.8;
+}
+
+.logo-glow-ring::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+}
+
+.logo-image {
+  transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-image {
+  transform: scale(1.1);
+}
+
+.logo-container:hover .logo-glow-ring {
+  opacity: 1;
+  filter: drop-shadow(0 0 15px var(--golden));
+}
+
 /* Hero fade-in animation */
 @keyframes fadeInUp {
   from {
