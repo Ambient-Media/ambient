@@ -2,12 +2,12 @@ import { smoothScrollTo } from "@/lib/utils";
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-[15px] pb-[15px] mt-[-88px] mb-[-88px]">
+    <section className="min-h-screen flex items-center justify-center px-6 pt-[15px] pb-[15px] mt-[-63px] mb-[-63px]">
       <div className="flex justify-center">
         {/* Hero Bento Box */}
-        <div className="hero-bento rounded-2xl p-4 md:p-6 hero-fade-in w-full max-w-sm md:max-w-lg">
+        <div className="hero-bento rounded-2xl p-4 md:p-6 hero-fade-in w-full max-w-sm md:max-w-lg shadow-lg">
           <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-2 md:space-y-0 md:space-x-4">
-            <h2 className="text-xl md:text-2xl font-bold leading-tight text-white hero-title text-left md:text-left" style={{ fontFamily: 'Inknut Antiqua, serif' }}>
+            <h2 className="text-xl md:text-2xl font-bold leading-tight text-white hero-title text-left md:text-left drop-shadow-lg" style={{ fontFamily: 'Inknut Antiqua, serif', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
               <span className="text-golden">AMBIENT MEDIA</span>
             </h2>
 
